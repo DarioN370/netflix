@@ -27,7 +27,9 @@ body {
     transition-timing-function: ease-in; /*essa propriedade da a função da transiçao da nav*/
     transition: all 0.6s; /*essa propriedade da a duração da transiçao da nav*/
 }
-
+.nav__black {
+    background-color: #111;
+}
 .nav-logo {
     width: 100px;
     object-fit: contain;
@@ -106,6 +108,4 @@ body {
     margin-left: 20px;
 }
 
-.nav__black {
-    background-color: #111;
-}
+
