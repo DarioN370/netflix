@@ -4,38 +4,39 @@
 <head>
     <meta charset="UTF-8">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/favicon" href="img/netflixicone.png">
+    <link rel="icon" type="image/favicon" href="img/nficon2016.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/carousel.css"/>
     <link rel="stylesheet" href="css/style.css">
-    <title>Netflix</title>
+    <title>Início - Netflix</title>
 </head>
 
 <body>
-    <div class="nav" id="nav">
-        <img class="nav__logo" src="img/banner4.png"/>
-        <img class="nav__avatar" src="img/netflix-avatar.png"/>
-    </div>
+    <header class="cabecalho">
+        <div class="nav" id="nav"> <!--nao tirar o id pois ele faz a nav aparecer quando o scroll desce-->
+            <a href="index.html"><img class="nav-logo" src="img/logo.png"/></a>
+            <img class="nav-avatar" src="img/profile-pic2.jpg"/>
+        </div>
+    </header>
+    
 
-    <header class="banner">
-        <div class="banner__contents">
-            <h1 class="banner__title">La Casa De Papel</h1>
-            <div class="banner__buttons">
-                <button class="banner__button">Assistir</button>
-                <button class="banner__button">Minha Lista</button>
+    <section class="banner">
+        <div class="banner-container">
+            <h1 class="banner-title">La Casa De Papel</h1>
+            <div class="banner-btn-container">
+                <button class="banner-btn">Assistir</button>
+                <button class="banner-btn">+ Minha Lista</button>
             </div>
-            <h1 class="banner__description">
-              Oito ladrões se trancam com reféns na Casa da Moeda da
-              Espanha. Seu líder manipula a policia para realizar 
-              um plano que pode ser o maior roubo da história ou uma missão em
-              vão.
+            <h1 class="banner-description">Oito ladrões se trancam com reféns na Casa da Moeda da
+                Espanha. Seu líder manipula a policia para realizar 
+                um plano que pode ser o maior roubo da história ou uma missão em
+                vão.
             </h1>
         </div>
-        <div class="banner--fadeBottom"></div>
-    </header>
+    </section>
 
     <div class="row">
-        <h2>ORIGINAIS NETFLIX</h2>
+        <h2>Originais Netflix</h2>
         <div class="carousel" data-fancybox="originais" data-carousel>
             <div class="carousel__slide"><img src="img/large-movie1.jpg" alt="Movie 1"></div>
             <div class="carousel__slide"><img src="img/large-movie2.jpg" alt="Movie 2"></div>
@@ -60,7 +61,7 @@
             <div class="carousel__slide"><img src="img/large-movie2.jpg" alt="Movie 2"></div>
             <div class="carousel__slide"><img src="img/large-movie1.jpg" alt="Movie 1"></div>
         </div>
-    </div>
+    </div> 
 
     <div class="row">
         <h2>Ação</h2>
